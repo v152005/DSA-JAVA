@@ -1,6 +1,6 @@
-import java.util.Scanner;
+
 public class select {
-     public static void select(int arr[]){
+     public static void select1(int arr[]){
 
          int n= arr.length;
          for(int i=0;i<n-1;i++){
@@ -21,7 +21,7 @@ public class select {
 
     static void main() {
          int[] arr= {2,7,5,9,8};
-         select(arr);
+         select1(arr);
          for(int i=0;i<arr.length;i++){
              System.out.println(" "+arr[i]);
          }
